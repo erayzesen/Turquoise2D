@@ -16,6 +16,13 @@ It's writed with QT. It's simple, fast and cross platform.
 # License
 Turquoise2D licensed with Zlib license. 
 
+# How it works?
+
+[![How It Works](https://img.youtube.com/vi/76ieIQAVkjw/0.jpg)](https://www.youtube.com/watch?v=76ieIQAVkjw)
+
+[Click here to watching on Youtube!](https://www.youtube.com/watch?v=76ieIQAVkjw)
+
+
 # FEATURES:
 
 * The editor developed to modern and tile based game projects
