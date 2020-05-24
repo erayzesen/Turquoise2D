@@ -1,0 +1,5 @@
+You must add a framework folder in here.
+Just like that;
+"<Framework Name>/<Framework Folder>"
+Sample;
+"Cocos2d-x/Cocos2d-x_v_3_10"

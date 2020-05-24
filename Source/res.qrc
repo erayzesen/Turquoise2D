@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/mouseIcons">
+        <file>rotate_mouse_cursor.png</file>
+        <file>pencil_mouse_cursor.png</file>
+        <file>eyedropper_mouse_cursor.png</file>
+        <file>zoom_mouse_cursor.png</file>
+    </qresource>
+    <qresource prefix="/Icons">
+        <file>sprite_type_32x32.png</file>
+        <file>fileIcon_spritesheet_16x16.png</file>
+        <file>fileIcon_spritesheet_48x48.png</file>
+        <file>fileIcon_back_48x48.png</file>
+        <file>uiIcons_mini_colliderbox.png</file>
+        <file>uiIcons_mini_collidercircle.png</file>
+        <file>uiIcons_mini_editbutton.png</file>
+        <file>uiIcons_mini_removebutton.png</file>
+        <file>uiIcons_mini_addbutton.png</file>
+        <file>uiIcons_mini_gridbutton.png</file>
+        <file>uiIcons_mini_snapbutton.png</file>
+        <file>object_type_32x32.png</file>
+        <file>fileIcon_none_48x48.png</file>
+        <file>sprite_type_16x16.png</file>
+        <file>object_type_16x16.png</file>
+        <file>item_type_16x16.png</file>
+        <file>fwIcons_cocos2dx_128x128.png</file>
+        <file>toolicon_default.png</file>
+        <file>toolicon_pan.png</file>
+        <file>toolicon_pencil.png</file>
+        <file>toolicon_zoom.png</file>
+        <file>toolicon_eyedropper.png</file>
+        <file>uiIcons_mini_none.png</file>
+        <file>uiIcons_mini_object.png</file>
+        <file>multipleitems_type_32x32.png</file>
+        <file>toolicon_lock.png</file>
+        <file>item_lock_type_16x16.png</file>
+        <file>toolicon_play.png</file>
+        <file>toolicon_playsettings.png</file>
+        <file>home_logo_291x71.png</file>
+        <file>uiIcons_mini_project.png</file>
+        <file>windowLogo.png</file>
+    </qresource>
+</RCC>
