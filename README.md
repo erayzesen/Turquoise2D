@@ -2,16 +2,18 @@
 
 # What is the Turquoise 2D project?
 
-Turquoise 2D is a open source level editor software for the game development. The editor is being developed for the quickly and great 2D game development with some game engine frameworks.(Currently support only Cocos2d-x)
+Turquoise 2D is an open source level editor software aimed for developing games using many game frameworks (currently Cocos2d-x is the only supported framework). 
 
 # What is the purpose of the project?
-Too many of the game engine frameworks are using by game developers of the world. We want to design levels, ui interfaces with this software but the software must be talk with supported game framework. Now turquoise2D editor is supported cocos2d-x. But it's need a support other frameworks.  
+Turquoise2D allows you to design levels for your video game and create user interfaces. 
+
+Turquoise2D currently supports Only Cocos2d-x, you're welcome to contribute and add support for other game engine.
 
 # At which stage is the project now?
-Currently, many things are missing and need to be improved. It's only support Cocos2d-x projects. Maybe you may integrate any frameworks. And you may add many features in the future.
+Currently there are many things that are missing and need to be improved, for instance, it only supports Cocos2d-x projects. Maybe you could integrate other framework or add new features to it.
 
 # Which UI library used?
-It's writed with QT. It's simple, fast and cross platform. 
+It's written using QT. We chose QT because it's simple, fast and cross platform.
 
 # License
 Turquoise2D licensed with Zlib license. 
@@ -25,15 +27,14 @@ Turquoise2D licensed with Zlib license.
 
 # FEATURES:
 
-* The editor developed to modern and tile based game projects
+* Create tile based game levels.
 * Sprite-Object drawing system with the draw and the eyedropper tool.
-* Simply pyhsic editor (Currently support box and circle collider shapes)
-* Directly game object integration with the framework
-* Spritesheet support
+* Simple physics editor (Currently support box and circle collider shapes).
+* Direct game object integration with the framework.
+* Spritesheet support.
 * Simple and useful development structure.
 * You won't need to learn any more framework information except the game library.
 * You can do easy compile,test-run process with a few buttons.
-* And more features will be add in the future...
 
 
 ![gif_01](https://img.itch.zone/aW1hZ2UvNjcwMzAvMzA0MTQ4LmdpZg==/347x500/g4lPtF.gif)
