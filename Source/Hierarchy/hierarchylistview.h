@@ -1,6 +1,4 @@
-#ifndef HIERARCHYLISTVIEW_H
-#define HIERARCHYLISTVIEW_H
-
+#pragma once
 #include <QWidget>
 #include "QApplication"
 #include "Canvas/graphicsscene.h"
@@ -33,5 +31,3 @@ public:
     //Lock operation
     void setItemsLock(QList<HierarchyItem*> itemList,bool lock=true);
 };
-
-#endif // HIERARCHYLISTVIEW_H

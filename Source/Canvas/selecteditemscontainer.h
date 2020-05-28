@@ -1,5 +1,5 @@
-#ifndef SELECTEDITEMSCONTAINER_H
-#define SELECTEDITEMSCONTAINER_H
+#pragma once
+
 #include "QGraphicsItemGroup"
 #include "QGraphicsScene"
 #include "Canvas/gameitem.h"
@@ -22,4 +22,3 @@ public:
     void  dropItems();
 };
 
-#endif // SELECTEDITEMSCONTAINER_H

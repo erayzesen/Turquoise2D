@@ -1,5 +1,5 @@
-#ifndef PROJECTMENU_H
-#define PROJECTMENU_H
+#pragma once 
+
 #include "QMenu"
 #include "QLayout"
 #include "QWidget"
@@ -20,4 +20,3 @@ public:
     QAction *runProject;
 };
 
-#endif // PROJECTMENU_H

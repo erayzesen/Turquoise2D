@@ -1,5 +1,4 @@
-#ifndef CUSTOMFOLDERMODEL_H
-#define CUSTOMFOLDERMODEL_H
+#pragma once
 
 #include <QApplication>
 #include <QFileSystemModel>
@@ -39,4 +38,3 @@ protected:
 private:
     QString dir;
 };
-#endif // CUSTOMFOLDERMODEL_H

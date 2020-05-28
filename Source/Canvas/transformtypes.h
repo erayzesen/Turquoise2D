@@ -1,5 +1,2 @@
-#ifndef TRANSFORMTYPES
-#define TRANSFORMTYPES
+#pragma once
 enum class TransformTypes{Origin,Scale};
-#endif // TRANSFORMTYPES
-

@@ -1,5 +1,5 @@
-#ifndef CLASSGENERATOR_H
-#define CLASSGENERATOR_H
+#pragma once
+
 #include "QList"
 #include "QVariantMap"
 #include "QTextStream"
@@ -35,5 +35,3 @@ public:
     void applyAutoFormat(QString *str);
     QString accessTypeToString(ClassAccessTypes accessType);
 };
-
-#endif // CLASSGENERATOR_H

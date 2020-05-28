@@ -1,5 +1,5 @@
-#ifndef MATHOPERATIONS_H
-#define MATHOPERATIONS_H
+#pragma once
+
 #include "QPointF"
 #include "QPoint"
 #include "QtMath"
@@ -25,5 +25,3 @@ public:
     static QList<QPointF> getDDAPoints(QPointF p1,QPointF p2,QSizeF pixelSize);
 
 };
-
-#endif // MATHOPERATIONS_H

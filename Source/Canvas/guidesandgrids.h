@@ -1,5 +1,5 @@
-#ifndef GUIDESANDGRIDS_H
-#define GUIDESANDGRIDS_H
+#pragma once
+
 #include "Canvas/graphicsscene.h"
 
 class GraphicsScene;
@@ -11,5 +11,3 @@ public:
     void paint(QPainter * painter, const QStyleOptionGraphicsItem * option, QWidget * widget = 0);
     QRectF boundingRect() const;
 };
-
-#endif // GUIDESANDGRIDS_H

@@ -1,5 +1,5 @@
-#ifndef CONSOLEPROGRESSDIALOG_H
-#define CONSOLEPROGRESSDIALOG_H
+#pragma once
+
 #include "QDialog"
 #include "QTextEdit"
 #include "QWidget"
@@ -21,4 +21,3 @@ public:
     void setProgressText(QString text);
 };
 
-#endif // CONSOLEPROGRESSDIALOG_H

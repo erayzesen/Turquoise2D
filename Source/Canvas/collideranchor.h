@@ -1,5 +1,4 @@
-#ifndef COLLIDERANCHOR_H
-#define COLLIDERANCHOR_H
+#pragma once
 #include "QGraphicsItem"
 #include "Canvas/gameitem.h"
 #include "mathoperations.h"
@@ -35,4 +34,3 @@ protected:
     virtual void hoverLeaveEvent(QGraphicsSceneHoverEvent *event);
 };
 
-#endif // COLLIDERANCHOR_H

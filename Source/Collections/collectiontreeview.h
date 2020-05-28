@@ -1,5 +1,4 @@
-#ifndef COLLECTIONTREEVIEW_H
-#define COLLECTIONTREEVIEW_H
+#pragma once
 #include <QTreeView>
 #include <QDropEvent>
 #include <QDebug>
@@ -28,5 +27,3 @@ protected:
     void dropEvent(QDropEvent *event);
     void mousePressEvent(QMouseEvent *event);
 };
-
-#endif // COLLECTIONTREEVIEW_H

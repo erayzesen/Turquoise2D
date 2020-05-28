@@ -1,5 +1,5 @@
-#ifndef WINDOWMENU_H
-#define WINDOWMENU_H
+#pragma once
+
 #include "QMenu"
 #include "QLayout"
 #include "QWidget"
@@ -23,4 +23,3 @@ public:
     QAction *collectionPanel;
 };
 
-#endif // WINDOWMENU_H

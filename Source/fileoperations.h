@@ -1,5 +1,4 @@
-#ifndef FILEOPERATIONS_H
-#define FILEOPERATIONS_H
+#pragma once
 
 #include <QListView>
 #include <QDropEvent>
@@ -26,5 +25,3 @@ public:
     static QString cutUrlFrom(QString referenceString,QString originalPath);
     static QString getAppRootPath();
 };
-
-#endif // FILEOPERATIONS_H

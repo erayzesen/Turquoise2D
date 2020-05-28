@@ -1,5 +1,4 @@
-#ifndef COLLIDERRENDERER_H
-#define COLLIDERRENDERER_H
+#pragma once
 #include "QGraphicsItem"
 #include "QPainter"
 #include "mathoperations.h"
@@ -18,4 +17,3 @@ public:
     QPolygonF setSceneZoomFactor(QPolygonF points);
 };
 
-#endif // COLLIDERRENDERER_H

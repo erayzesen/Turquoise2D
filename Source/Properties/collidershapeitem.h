@@ -1,5 +1,4 @@
-#ifndef COLLIDERSHAPEITEM_H
-#define COLLIDERSHAPEITEM_H
+#pragma once
 
 #include <QWidget>
 #include <QtWidgets>
@@ -32,4 +31,3 @@ signals:
 public slots:
 };
 
-#endif // COLLIDERSHAPEITEM_H

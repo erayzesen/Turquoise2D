@@ -1,5 +1,4 @@
-#ifndef PROXYMODEL
-#define PROXYMODEL
+#pragma once 
 
 #include <QApplication>
 #include <QFileSystemModel>
@@ -39,6 +38,3 @@ protected:
 private:
     QString dir;
 };
-
-#endif // TURQUOISE2DEDITOR_H
-

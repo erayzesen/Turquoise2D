@@ -1,5 +1,5 @@
-#ifndef FILESELECTORMODEL_H
-#define FILESELECTORMODEL_H
+#pragma once
+
 #include "QStandardItemModel"
 #include "QObject"
 #include "QDirIterator"
@@ -18,4 +18,3 @@ public:
     QStringList CheckNodeClasses(QStringList classFiles);
 };
 
-#endif // FILESELECTORMODEL_H

@@ -1,5 +1,4 @@
-#ifndef COLLECTIONFOLDERSYSTEMMODEL_H
-#define COLLECTIONFOLDERSYSTEMMODEL_H
+#pragma once 
 #include "QFileSystemModel"
 #include "QDebug"
 #include "SpriteSheet/spritesheet.h"
@@ -10,5 +9,3 @@ public:
     CollectionFolderSystemModel();
     QVariant data ( const QModelIndex & index, int role = Qt::DisplayRole )const;
 };
-
-#endif // COLLECTIONFOLDERSYSTEMMODEL_H

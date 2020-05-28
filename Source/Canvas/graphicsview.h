@@ -1,5 +1,5 @@
-#ifndef GRAPHICSVIEW_H
-#define GRAPHICSVIEW_H
+#pragma once
+
 #include "QWidget"
 #include "QGraphicsView"
 #include "QGraphicsScene"
@@ -19,5 +19,3 @@ protected:
     void mouseReleaseEvent(QMouseEvent *event);
 
 };
-
-#endif // GRAPHICSVIEW_H

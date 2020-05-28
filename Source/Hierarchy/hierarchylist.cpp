@@ -18,7 +18,7 @@ HierarchyList::~HierarchyList()
     delete ui;
 }
 HierarchyItem* HierarchyList::AddItem(QString name,GameItemTypes type,QString path){
-    HierarchyItem *item=new HierarchyItem(name,type,path);
+    HierarchyItem *item=new HierarchyItem(name,type);
     itemModel->appendRow(item);
     return item;
 }

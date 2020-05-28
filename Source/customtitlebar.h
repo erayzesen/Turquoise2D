@@ -1,5 +1,4 @@
-#ifndef CUSTOMTITLEBAR_H
-#define CUSTOMTITLEBAR_H
+#pragma once
 
 #include <QWidget>
 #include <QFile>
@@ -21,4 +20,4 @@ private:
     Ui::CustomTitleBar *ui;
 };
 
-#endif // CUSTOMTITLEBAR_H
+

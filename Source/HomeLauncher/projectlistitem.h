@@ -1,5 +1,4 @@
-#ifndef PROJECTLISTITEM_H
-#define PROJECTLISTITEM_H
+#pragma once
 
 #include <QWidget>
 #include <QLayout>
@@ -20,4 +19,3 @@ signals:
 public slots:
 };
 
-#endif // PROJECTLISTITEM_H

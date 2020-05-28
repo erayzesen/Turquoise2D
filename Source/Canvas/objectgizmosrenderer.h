@@ -1,5 +1,5 @@
-#ifndef OBJECTGIZMOSRENDERER_H
-#define OBJECTGIZMOSRENDERER_H
+#pragma once
+
 #include "QGraphicsItem"
 #include "QPainter"
 #include "mathoperations.h"
@@ -16,5 +16,3 @@ public:
     void paint(QPainter * painter, const QStyleOptionGraphicsItem * option, QWidget * widget = 0);
     QRectF boundingRect() const;
 };
-
-#endif // OBJECTGIZMOSRENDERER_H

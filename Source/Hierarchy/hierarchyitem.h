@@ -1,5 +1,4 @@
-#ifndef HIERARCHYITEM_H
-#define HIERARCHYITEM_H
+#pragma once
 #include <QWidget>
 #include <QObject>
 #include <QStandardItem>
@@ -16,5 +15,3 @@ public:
     GameItemTypes itemType;
     virtual void setData(const QVariant & value, int role = Qt::UserRole + 1);
 };
-
-#endif // HIERARCHYITEM_H

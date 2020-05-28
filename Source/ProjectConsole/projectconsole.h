@@ -1,5 +1,5 @@
-#ifndef PROJECTCONSOLE_H
-#define PROJECTCONSOLE_H
+#pragma once
+
 #include "turquoise2deditor.h"
 #include "QWidget"
 #include "QTextEdit"
@@ -15,4 +15,3 @@ public:
     static QWidget* CreateConsoleWindow(QTextEdit* consoleText,QWidget *parent=0);
 };
 
-#endif // PROJECTCONSOLE_H

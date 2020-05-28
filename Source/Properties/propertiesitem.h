@@ -1,5 +1,4 @@
-#ifndef PROPERTIESITEM_H
-#define PROPERTIESITEM_H
+#pragma once
 
 #include <QWidget>
 #include <Canvas/selectiontransformitem.h>
@@ -56,4 +55,3 @@ signals:
 public slots:
 };
 
-#endif // PROPERTIESITEM_H

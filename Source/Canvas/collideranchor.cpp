@@ -9,6 +9,7 @@ ColliderAnchor::ColliderAnchor(QVariantMap* _collider,QString _frameSide,GameIte
     scene=inspectorItem->scene;
     scene->addItem(this);
 
+
     this->setAcceptHoverEvents(true);
     //this->setFlag(QGraphicsItem::ItemIsSelectable, true);
 

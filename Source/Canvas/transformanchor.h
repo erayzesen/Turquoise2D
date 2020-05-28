@@ -1,5 +1,5 @@
-#ifndef TRANSFORMANCHOR_H
-#define TRANSFORMANCHOR_H
+#pragma once
+
 #include "QGraphicsItem"
 #include "Canvas/selectiontransformitem.h"
 #include "Canvas/transformtypes.h"
@@ -33,4 +33,3 @@ public:
 
 };
 
-#endif // TRANSFORMANCHOR_H

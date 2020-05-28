@@ -1,5 +1,4 @@
-#ifndef FILEMENU_H
-#define FILEMENU_H
+#pragma once
 #include "QMenu"
 #include "QLayout"
 #include "QWidget"
@@ -34,5 +33,3 @@ public slots:
     void SaveScene();
     void SaveAsScene();
 };
-
-#endif // FILEMENU_H
