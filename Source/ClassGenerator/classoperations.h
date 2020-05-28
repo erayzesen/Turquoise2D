@@ -1,6 +1,5 @@
-#ifndef CLASSOPERATIONS_H
-#define CLASSOPERATIONS_H
-#include "classgenerator.h";
+#pragma once
+#include "classgenerator.h"
 #include "QProcess"
 #include "projectfilesoperations.h"
 
@@ -18,4 +17,3 @@ public:
 
 };
 
-#endif // CLASSOPERATIONS_H

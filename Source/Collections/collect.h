@@ -1,11 +1,7 @@
-#ifndef COLLECT_H
-#define COLLECT_H
-
+#pragma once
 
 class collect
 {
 public:
     collect();
 };
-
-#endif // COLLECT_H

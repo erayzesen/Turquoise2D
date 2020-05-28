@@ -1,5 +1,5 @@
-#ifndef PROJECTFILESOPERATIONS_H
-#define PROJECTFILESOPERATIONS_H
+#pragma once
+
 #include "QList"
 #include "QVariantMap"
 #include "QTextStream"
@@ -26,5 +26,3 @@ public:
     static QString checkDirForFrameworks(QString dir);
     static QStringList getFrameworkPaths(Turquoise2DEditor *mainWindow,QString frameworkName="");
 };
-
-#endif // PROJECTFILESOPERATIONS_H

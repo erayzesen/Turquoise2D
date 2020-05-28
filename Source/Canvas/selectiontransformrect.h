@@ -1,5 +1,5 @@
-#ifndef SELECTIONTRANSFORMRECT_H
-#define SELECTIONTRANSFORMRECT_H
+#pragma once 
+
 #include "QGraphicsItem"
 #include "selectiontransformitem.h"
 #include "mathoperations.h"
@@ -18,4 +18,3 @@ public:
     QRectF boundingRect() const;
 };
 
-#endif // SELECTIONTRANSFORMRECT_H

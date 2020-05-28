@@ -1,5 +1,4 @@
-#ifndef GROUPITEM_H
-#define GROUPITEM_H
+#pragma once
 #include <QStandardItem>
 
 enum class CategoryTypes{Sprites,Objects};
@@ -10,4 +9,3 @@ public:
     GroupItem(QString groupTitle,CategoryTypes _categoryType);
 };
 
-#endif // GROUPITEM_H

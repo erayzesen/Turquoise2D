@@ -1,5 +1,4 @@
-#ifndef FORM_H
-#define FORM_H
+#pragma once
 
 #include <QWidget>
 
@@ -19,4 +18,3 @@ private:
     Ui::Form *ui;
 };
 
-#endif // FORM_H

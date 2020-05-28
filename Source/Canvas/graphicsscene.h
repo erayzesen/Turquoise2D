@@ -1,5 +1,5 @@
-#ifndef GRAPHICSSCENE_H
-#define GRAPHICSSCENE_H
+#pragma once
+
 #include "QWidget"
 #include "QObject"
 #include "QGraphicsView"
@@ -152,4 +152,3 @@ protected slots:
     void isSelectedChanged();
 };
 
-#endif // GRAPHICSSCENE_H

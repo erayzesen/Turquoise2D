@@ -1,5 +1,4 @@
-#ifndef SPRITESHEETSELECTORMODEL_H
-#define SPRITESHEETSELECTORMODEL_H
+#pragma once
 #include "QStandardItemModel"
 #include "QStandardItem"
 #include "SpriteSheet/spritesheet.h"
@@ -11,4 +10,3 @@ public:
     void setTarget(QString targetPath);
 };
 
-#endif // SPRITESHEETSELECTORMODEL_H

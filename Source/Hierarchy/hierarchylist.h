@@ -1,5 +1,4 @@
-#ifndef HIERARCHYLIST_H
-#define HIERARCHYLIST_H
+#pragma once
 
 #include <QWidget>
 #include "hierarchyitem.h"
@@ -21,5 +20,3 @@ public:
 private:
     Ui::HierarchyList *ui;
 };
-
-#endif // HIERARCHYLIST_H

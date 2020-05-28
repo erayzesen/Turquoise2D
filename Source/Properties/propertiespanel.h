@@ -1,5 +1,4 @@
-#ifndef PROPERTIESPANEL_H
-#define PROPERTIESPANEL_H
+#pragma once
 
 #include <QWidget>
 #include <Properties/propertiesitem.h>
@@ -26,5 +25,3 @@ signals:
 
 public slots:
 };
-
-#endif // PROPERTIESPANEL_H

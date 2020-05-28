@@ -1,5 +1,4 @@
-#ifndef HOMEWIDGET_H
-#define HOMEWIDGET_H
+#pragma once
 
 #include <QWidget>
 #include <QLayout>
@@ -27,5 +26,3 @@ signals:
 
 public slots:
 };
-
-#endif // HOMEWIDGET_H

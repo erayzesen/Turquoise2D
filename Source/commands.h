@@ -1,5 +1,5 @@
-#ifndef COMMANDS_H
-#define COMMANDS_H
+#pragma once
+
 #include <QUndoCommand>
 #include "Hierarchy/hierarchylistview.h"
 #include "QUrl"
@@ -346,4 +346,3 @@ public:
 
 };
 
-#endif // COMMANDS_H

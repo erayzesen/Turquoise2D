@@ -1,5 +1,4 @@
-#ifndef GAMEITEM_H
-#define GAMEITEM_H
+#pragma once
 #include "QGraphicsPixmapItem"
 #include "QString"
 #include "QDebug"
@@ -70,5 +69,3 @@ public:
     double toDB(float num);
 
 };
-
-#endif // GAMEITEM_H

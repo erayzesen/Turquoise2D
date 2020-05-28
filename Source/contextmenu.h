@@ -1,5 +1,5 @@
-#ifndef CONTEXTMENU_H
-#define CONTEXTMENU_H
+#pragma once
+
 #include <Qt>
 #include <QApplication>
 #include <QClipboard>
@@ -21,5 +21,3 @@ public:
     static void newForCollectionFolderBrowser(collectionTreeView *parent,QPoint point);
     static QString getCollectionType(QStringList *typeList);
 };
-
-#endif // CONTEXTMENU_H

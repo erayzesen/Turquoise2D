@@ -1,5 +1,4 @@
-#ifndef COLLECTIONSPRITESHEETMODEL_H
-#define COLLECTIONSPRITESHEETMODEL_H
+#pragma once
 #include "QStandardItemModel"
 #include "QStandardItem"
 #include "SpriteSheet/spritesheet.h"
@@ -13,6 +12,3 @@ public:
     void setTarget(QString targetPath);
     QMimeData *mimeData(const QModelIndexList &indexes) const;
 };
-
-
-#endif // COLLECTIONSPRITESHEETMODEL_H

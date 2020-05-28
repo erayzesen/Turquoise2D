@@ -1,5 +1,5 @@
-#ifndef FILETOOLS_H
-#define FILETOOLS_H
+#pragma once
+
 #include "QMenu"
 
 class FileTools
@@ -9,4 +9,3 @@ public:
 
 };
 
-#endif // FILETOOLS_H

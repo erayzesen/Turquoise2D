@@ -1,5 +1,4 @@
-#ifndef COLLECTIONLISTVIEW_H
-#define COLLECTIONLISTVIEW_H
+#pragma once
 
 #include <QListView>
 #include <QDropEvent>
@@ -32,5 +31,3 @@ protected:
     void dropEvent(QDropEvent *event);
     void mousePressEvent(QMouseEvent *event);
 };
-
-#endif // COLLECTIONLISTVIEW_H

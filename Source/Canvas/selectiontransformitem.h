@@ -1,5 +1,4 @@
-#ifndef SELECTIONTRANSFORMITEM_H
-#define SELECTIONTRANSFORMITEM_H
+#pragma once
 #include "QGraphicsItemGroup"
 #include "QGraphicsScene"
 #include "Canvas/gameitem.h"
@@ -58,5 +57,3 @@ public:
     void setNewScale(QPointF newScale,bool digitFilter=true);
 
 };
-
-#endif // SELECTIONTRANSFORMITEM_H

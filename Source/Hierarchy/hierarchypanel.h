@@ -1,5 +1,4 @@
-#ifndef HIERARCHYPANEL_H
-#define HIERARCHYPANEL_H
+#pragma once
 
 #include <QWidget>
 #include "Canvas/graphicsscene.h"
@@ -27,4 +26,3 @@ signals:
 public slots:
 };
 
-#endif // HIERARCHYPANEL_H

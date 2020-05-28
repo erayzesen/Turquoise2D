@@ -1,5 +1,4 @@
-#ifndef FILESELECTORDIALOG_H
-#define FILESELECTORDIALOG_H
+#pragma once
 
 #include <QWidget>
 #include <QFileDialog>
@@ -18,4 +17,3 @@ public:
     static void setExplorerProps(QListView *listview,bool iconMode=true);
 };
 
-#endif // FILESELECTORDIALOG_H

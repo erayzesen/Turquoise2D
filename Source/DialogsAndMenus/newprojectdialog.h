@@ -1,5 +1,4 @@
-#ifndef NEWPROJECTDIALOG_H
-#define NEWPROJECTDIALOG_H
+#pragma once
 #include <QDialog>
 #include <QListWidget>
 #include <QListWidgetItem>
@@ -34,4 +33,3 @@ public:
     bool checkForUniqueTargetPath(QString targetPath);
 };
 
-#endif // NEWPROJECTDIALOG_H

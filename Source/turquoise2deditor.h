@@ -1,6 +1,4 @@
-#ifndef TURQUOISE2DEDITOR_H
-#define TURQUOISE2DEDITOR_H
-
+#pragma once
 
 #include <QMainWindow>
 #include <QListView>
@@ -161,4 +159,3 @@ private:
     Ui::Turquoise2DEditor *ui;
 };
 
-#endif // TURQUOISE2DEDITOR_H

@@ -1,5 +1,4 @@
-#ifndef SCENEPANEL_H
-#define SCENEPANEL_H
+#pragma once 
 
 #include <QWidget>
 #include "Properties/propertiespanel.h"
@@ -47,5 +46,3 @@ signals:
 
 public slots:
 };
-
-#endif // SCENEPANEL_H
