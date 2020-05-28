@@ -2,7 +2,7 @@
 
 # What is the Turquoise 2D project?
 
-Turquoise 2D is an open source level editor software aimed for developing games using many game frameworks (currently Cocos2d-x is the only supported framework). 
+Turquoise 2D is an open source level/game editor software aimed for developing games using many game frameworks (currently Cocos2d-x is the only supported framework). 
 
 If you want to make your own game editor to any game framework,  maybe this might be a good start. Improve it and help its improving!
 
